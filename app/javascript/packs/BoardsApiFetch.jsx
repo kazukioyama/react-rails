@@ -22,7 +22,9 @@ const BoardsApiFetch = () => {
     )
 }
 
-// export default ApiFetch
+// export default BoardsApiFetch
+
+// boards/index.html.erbにBoardsApiFetchを<div>として挿入する
 document.addEventListener('DOMContentLoaded', () => {
     ReactDOM.render(
       <BoardsApiFetch/>,
